@@ -26,6 +26,14 @@ Meteor.methods({
       return;
     }
 
+    // Check to make sure cookie belongs to current session
+    var cookies = ServerCookies.retrieve(this.connection);
+    userCookie = cookies['cookies']['auth_user'];
+    if (cookie !== userCookie) {
+      console.log("Someone is being naughty...", userCookie, cookie);
+      return;
+    }
+
     // Get the username and unescape it from the cookie.
     var username = querystring.unescape(cookie);
 
