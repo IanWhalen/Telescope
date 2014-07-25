@@ -30,8 +30,8 @@ telescope-api
 jquery-hotkeys
 marked
 bootstrap3-datepicker
-telescope-theme-hubble
 subs-manager
 cookie
 server-cookies
 browser-policy
+telescope-theme-mongodb
