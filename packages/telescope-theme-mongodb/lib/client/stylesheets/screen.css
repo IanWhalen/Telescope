@@ -1308,13 +1308,15 @@ body.pageslide-open {
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-    overflow: hidden;
     position: block;
+    width: 40px;
+    height: 40px;
     float: left; }
     /* line 140, ../sass/modules/_comments.scss */
     .comment-content .user-avatar img {
-      height: 40px;
-      width: 40px;
+      margin: auto;
+      max-height: 40px;
+      max-width: 40px;
       display: block; }
 
 /* line 147, ../sass/modules/_comments.scss */
