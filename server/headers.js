@@ -13,4 +13,5 @@ BrowserPolicy.content.allowImageOrigin("*.google-analytics.com");
 BrowserPolicy.content.allowImageOrigin("*.gravatar.com");
 BrowserPolicy.content.allowImageOrigin("*.wp.com");
 BrowserPolicy.content.allowImageOrigin("*.mongodb.com");
+BrowserPolicy.content.allowImageOrigin("*.10gen.com");
 BrowserPolicy.content.allowFontDataUrl();
